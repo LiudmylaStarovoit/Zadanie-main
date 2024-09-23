@@ -1,0 +1,49 @@
+.nav {
+    width: 336px;
+    height: 29px;
+    gap: 10px;
+    &_title {
+        font-size: 24px;
+        line-height: 29.26px;
+        color: var(--color-dark-blue);
+        margin-bottom: 0;
+    }
+    &_divider {
+        width: 1px;
+        height: 26px;
+        border: 1px solid var(--color-input-border);
+    }
+    &_wrapper {
+        width: 195px;
+        height: 21px;
+        gap: 10px;
+    }
+    &_home {
+        width: 14px;
+        height: 34px;
+    }
+    &_arrow  {
+        width: 14px;
+        height: 14px;
+    }
+    &_start {
+        font-weight: 400;
+        color: var(--color-blue);
+    }
+    &_current {
+        font-weight: 400;
+        color: var(--color-grey);
+    }
+}
+
+.add-field {
+    margin: 20px 0;
+    &_text {
+        font-weight: 600;
+        color: var(--color-blue);
+        margin-left: 20px;
+    }
+    &_btns {
+        gap: 20px;
+    }
+}
